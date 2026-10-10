@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Yasin Nejati — AI Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<meta name="description" content="Yasin Nejati — AI Developer. Machine learning and Python projects. | یاسین نجاتی — توسعه‌دهنده هوش مصنوعی">
+<meta name="theme-color" content="#07090f">
+<meta name="color-scheme" content="dark light">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='28' fill='%234f7cff'/%3E%3Ctext x='50' y='66' font-size='46' font-family='Arial' font-weight='700' text-anchor='middle' fill='white'%3EYN%3C/text%3E%3C/svg%3E">
+<noscript><style>.rv{opacity:1!important;transform:none!important}</style></noscript>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Vazirmatn:wght@400;500;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#07090f;--bg2:#0d1220;--surface:#121a2d;--surface2:#18223a;--line:rgba(140,160,255,.14);--tx:#eef2ff;--mu:#94a0bd;--ac:#4f7cff;--ac2:#8b6cff;--glow:rgba(79,124,255,.35);--sh:0 20px 50px -20px rgba(0,0,0,.7);--f:'Manrope','Vazirmatn',system-ui,sans-serif;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+:root:not([data-theme="dark"]){--bg:#f4f6fc;--bg2:#e9edf9;--surface:#fff;--surface2:#f0f3fc;--line:rgba(60,80,160,.14);--tx:#0e1530;--mu:#5a6584;--glow:rgba(79,124,255,.25);--sh:0 20px 50px -25px rgba(40,60,140,.35)}
+*,*::before,*::after{box-sizing:border-box;margin:0}
+html{height:100%;scroll-behavior:smooth;scroll-padding-top:env(safe-area-inset-top,0px)}
+body{background:var(--bg);color:var(--tx);font-family:var(--f);line-height:1.65;min-height:100%;overflow-x:hidden;transition:background .5s,color .5s}
+[dir=rtl] body{line-height:1.9}
+[dir=rtl] h1,[dir=rtl] h2,[dir=rtl] h3,[dir=rtl] .role{letter-spacing:0}
+.skip{position:fixed;top:-70px;inset-inline-start:12px;z-index:300;padding:10px 16px;border-radius:12px;background:var(--surface);border:1px solid var(--line);font-weight:700}
+.skip:focus{top:calc(12px + env(safe-area-inset-top,0px))}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+section{padding:110px 0;position:relative}
+h1,h2,h3{line-height:1.15;letter-spacing:-.02em}
+h2{font-size:clamp(26px,4vw,38px);margin-bottom:12px}
+.sub{color:var(--mu);max-width:52ch;margin-bottom:44px}
+:focus-visible{outline:2px solid var(--ac);outline-offset:3px;border-radius:10px}
+/* nav */
+nav{position:fixed;top:calc(14px + env(safe-area-inset-top,0px));left:50%;translate:-50% 0;z-index:50;display:flex;align-items:center;gap:6px;padding:8px 10px;border-radius:999px;background:color-mix(in srgb,var(--surface) 88%,transparent);border:1px solid var(--line);box-shadow:var(--sh);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);transition:padding .4s,gap .4s,background .5s;max-width:calc(100vw - 20px)}
+nav.compact{padding:5px 8px}
+.brand{display:flex;width:34px;height:34px;flex:none}
+.links{display:flex;gap:2px;position:relative}
+.links a{padding:8px 13px;border-radius:999px;font-size:14px;color:var(--mu);position:relative;z-index:1;transition:color .3s;white-space:nowrap}
+.links a.on,.links a:hover{color:var(--tx)}
+#pill{position:absolute;top:0;height:100%;border-radius:999px;background:var(--surface2);border:1px solid var(--line);transition:left .45s cubic-bezier(.2,.8,.2,1),width .45s cubic-bezier(.2,.8,.2,1);z-index:0}
+.ib{width:36px;height:36px;border-radius:50%;border:1px solid var(--line);background:var(--surface2);color:var(--tx);display:grid;place-items:center;cursor:pointer;font:600 12px var(--f);transition:transform .3s,box-shadow .3s}
+.ib:hover{box-shadow:0 0 0 4px var(--glow)}
+.ib svg{width:18px;height:18px;fill:currentColor}
+#menu{display:none}
+.sun{display:none}[data-theme=light] .sun{display:block}[data-theme=light] .moon{display:none}
+/* hero */
+#home{min-height:100svh;display:grid;align-items:center;padding-top:140px;overflow:hidden}
+#cv{position:absolute;inset:0;width:100%;height:100%;z-index:0}
+.orb{position:absolute;width:520px;height:520px;border-radius:50%;background:radial-gradient(circle,var(--ac) 0%,transparent 65%);opacity:.22;filter:blur(30px);top:-120px;inset-inline-end:-120px;animation:drift 18s ease-in-out infinite alternate}
+.orb.b{background:radial-gradient(circle,var(--ac2) 0%,transparent 65%);inset-inline-end:auto;inset-inline-start:-160px;top:auto;bottom:-200px;animation-duration:24s}
+@keyframes drift{to{transform:translate(-60px,50px) scale(1.12)}}
+#home::after{content:"";position:absolute;inset:0;background:radial-gradient(500px circle at var(--mx,70%) var(--my,30%),var(--glow),transparent 70%);opacity:.7;pointer-events:none}
+.hero{position:relative;z-index:2;display:grid;grid-template-columns:1.3fr 1fr;gap:40px;align-items:center}
+.hero h1{font-size:clamp(40px,7vw,76px);font-weight:800;margin-bottom:10px}
+.role{font-size:clamp(18px,2.4vw,24px);background:linear-gradient(90deg,var(--ac),var(--ac2));-webkit-background-clip:text;background-clip:text;color:transparent;font-weight:700;margin-bottom:18px}
+.intro{color:var(--mu);max-width:48ch;margin-bottom:32px;font-size:17px}
+.btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:14px 24px;border-radius:999px;font-weight:700;font-size:15px;border:1px solid var(--line);cursor:pointer;transition:box-shadow .35s,transform .2s;position:relative;color:var(--tx);background:var(--surface);font-family:inherit}
+.btn.p{background:linear-gradient(135deg,var(--ac),var(--ac2));color:#fff;border-color:transparent}
+.btn:hover{box-shadow:0 10px 30px -8px var(--glow),0 0 0 4px var(--glow)}
+.btn svg{width:18px;height:18px;fill:currentColor}
+.btn svg.br{width:22px;height:22px}
+.logo{position:relative;justify-self:center;width:min(300px,70vw);aspect-ratio:1;perspective:800px}
+.logo .in{width:100%;height:100%;border-radius:32%;background:linear-gradient(145deg,var(--surface2),var(--surface));border:1px solid var(--line);box-shadow:var(--sh),0 0 80px -20px var(--glow);display:grid;place-items:center;transition:transform .2s;overflow:hidden;position:relative}
+.logo .in::after{content:"";position:absolute;inset:0;background:linear-gradient(105deg,transparent 40%,rgba(255,255,255,.18) 50%,transparent 60%);translate:-120% 0;transition:translate .9s}
+.logo:hover .in::after{translate:120% 0}
+.logo svg{width:56%}
+.bub{position:absolute;border-radius:50%;background:linear-gradient(145deg,var(--surface2),var(--surface));border:1px solid var(--line);box-shadow:var(--sh);animation:fl 7s ease-in-out infinite alternate}
+@keyframes fl{to{transform:translateY(-16px)}}
+/* about */
+.about{display:grid;grid-template-columns:1.4fr 1fr;gap:30px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:28px;padding:30px;box-shadow:var(--sh);position:relative;overflow:hidden;transition:background .5s}
+.card p{color:var(--mu)}
+.card.t{transform-style:preserve-3d;transition:transform .25s}
+.card::before{content:"";position:absolute;inset:0;background:radial-gradient(260px circle at var(--cx,50%) var(--cy,0%),var(--glow),transparent 70%);opacity:0;transition:opacity .3s;pointer-events:none}
+.card:hover::before{opacity:1}
+.facts{display:grid;gap:14px;align-content:center}
+.fact{display:flex;gap:12px;align-items:center;font-weight:600}
+.fact i{width:10px;height:10px;border-radius:50%;background:linear-gradient(135deg,var(--ac),var(--ac2));box-shadow:0 0 14px var(--ac)}
+/* skills */
+.skills{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.sk{display:grid;grid-template-columns:96px 1fr;gap:22px;align-items:center}
+.sk svg{width:96px;height:96px;overflow:visible}
+.ring{fill:none;stroke-width:5;stroke-linecap:round}
+.ring.bg{stroke:var(--line)}
+.ring.fg{stroke:url(#g);stroke-dasharray:100;stroke-dashoffset:100;transition:stroke-dashoffset 1.6s cubic-bezier(.2,.8,.2,1)}
+.rev .ring.fg{stroke-dashoffset:var(--o)}
+.sk h3{font-size:22px}.lvl{color:var(--ac);font-weight:700;font-size:14px;margin:2px 0 6px}
+.more{color:var(--mu);font-size:14px;max-height:0;opacity:0;overflow:hidden;transition:max-height .5s,opacity .5s}
+.sk:hover .more,.sk:focus-within .more{max-height:80px;opacity:1}
+@media(hover:none){.more{max-height:none;opacity:1}}
+/* projects */
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));gap:24px}
+.pc{padding:0}
+.allp{display:flex;justify-content:center;margin-top:40px}
+.pc .img{height:170px;overflow:hidden}
+.pc .img svg{width:100%;height:100%;display:block;transition:transform .8s cubic-bezier(.2,.8,.2,1)}
+.pc:hover .img svg{transform:scale(1.08)}
+.pc .bd{padding:24px}
+.pc h3{font-size:19px;margin-bottom:6px}
+.tags{display:flex;gap:8px;margin:14px 0 18px;flex-wrap:wrap}
+.tags span{font-size:12px;padding:4px 12px;border-radius:99px;background:var(--surface2);border:1px solid var(--line);color:var(--mu)}
+.pc .btn{padding:9px 16px;font-size:13px}
+/* contact/footer */
+.ct{text-align:center;padding:60px 30px}
+.ct .btns{justify-content:center;margin-top:24px}
+footer{padding:36px 0 50px;border-top:1px solid var(--line);color:var(--mu);font-size:14px}
+.fr{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}
+.fr b{color:var(--tx)}
+.fl{display:flex;gap:18px;align-items:center}
+.fl a:hover{color:var(--tx)}
+/* modal */
+.modal{position:fixed;inset:0;z-index:100;display:none;align-items:center;justify-content:center;padding:24px}
+.modal.open{display:flex}
+.modal-backdrop{position:absolute;inset:0;background:rgba(0,0,0,.7);backdrop-filter:blur(4px)}
+.modal-content{position:relative;background:var(--surface);border:1px solid var(--line);border-radius:28px;max-width:800px;width:100%;max-height:85vh;overflow:auto;box-shadow:var(--sh);animation:modalIn .3s cubic-bezier(.2,.8,.2,1)}
+@keyframes modalIn{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:none}}
+.modal-close{position:absolute;top:16px;inset-inline-end:16px;width:40px;height:40px;border-radius:50%;border:1px solid var(--line);background:var(--surface2);color:var(--tx);font-size:24px;line-height:1;cursor:pointer;display:grid;place-items:center;z-index:1;transition:background .3s,box-shadow .3s}
+.modal-close:hover{background:var(--ac);border-color:var(--ac);box-shadow:0 0 0 4px var(--glow)}
+.modal-body{padding:32px}
+.modal-text{color:var(--mu);line-height:1.8}
+.modal-text p{margin:12px 0}
+.modal-body h2{padding-inline-end:48px}
+.modal-content:focus{outline:none}
+.modal-text h3{color:var(--tx);margin:24px 0 12px;font-size:1.2em}
+.modal-text strong{color:var(--tx)}
+.modal-text ul{margin:12px 0;padding-inline-start:24px}
+.modal-text li{margin:8px 0}
+.modal-text a{color:var(--ac);text-decoration:underline}
+.modal-text a:hover{color:var(--ac2)}
+/* cursor */
+#cur{position:fixed;left:0;top:0;width:34px;height:34px;margin:-17px 0 0 -17px;border-radius:50%;border:1.5px solid var(--ac);box-shadow:0 0 20px var(--glow);pointer-events:none;z-index:200;transition:width .3s,height .3s,margin .3s,background .3s,opacity .3s;opacity:0}
+#cur.h{width:56px;height:56px;margin:-28px 0 0 -28px;background:var(--glow)}
+@media(hover:none),(pointer:coarse){#cur{display:none}}
+@media(hover:hover) and (pointer:fine){body.cc,body.cc a,body.cc button{cursor:none}}
+/* reveal */
+.rv{opacity:0;transform:translateY(22px);transition:opacity .9s,transform .9s cubic-bezier(.2,.8,.2,1);transition-delay:var(--d,0s)}
+.rv.rev{opacity:1;transform:none}
+.rv.rev.done{transition:transform .25s,background .5s;transition-delay:0s}
+.sw{animation:sw .5s}
+@keyframes sw{from{opacity:.2;filter:blur(6px)}}
+@media(max-width:820px){
+  section{padding:80px 0}
+  .hero,.about,.skills{grid-template-columns:1fr}
+ .logo{order:-1;width:180px;justify-self:start}
+ [dir=rtl] .logo{justify-self:start}
+ .links{position:fixed;inset:calc(76px + env(safe-area-inset-top,0px)) 14px auto 14px;flex-direction:column;padding:12px;border-radius:26px;background:var(--surface);border:1px solid var(--line);box-shadow:var(--sh);opacity:0;pointer-events:none;transform:translateY(-12px) scale(.97);transition:.35s}
+ .links.open{opacity:1;pointer-events:auto;transform:none}
+ .links a{padding:14px 16px;font-size:16px}
+ #pill{display:none}
+ #menu{display:grid}
+ nav{width:calc(100vw - 20px);justify-content:space-between}
+ .sp{margin-inline-start:auto}
+}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition-duration:.01s!important}html{scroll-behavior:auto}.rv{opacity:1;transform:none}}
+::view-transition-old(root),::view-transition-new(root){animation-duration:.5s}
+</style>
+</head>
+<body>
+<a class="skip" href="#main" data-i="skip"></a>
+<div id="cur"></div>
+<svg width="0" height="0" style="position:absolute"><defs>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4f7cff"/><stop offset="1" stop-color="#8b6cff"/></linearGradient>
+<symbol id="gh" viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></symbol>
+<symbol id="yn" viewBox="0 0 100 100"><path d="M18 22l24 34v26M66 22L42 56" fill="none" stroke="url(#g)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M62 82V40l22 30V22" fill="none" stroke="currentColor" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" opacity=".9"/></symbol>
+<symbol id="gmail" viewBox="52 42 88 66"><path fill="#4285f4" d="M58 108h14V74L52 59v43c0 3.32 2.69 6 6 6"/><path fill="#34a853" d="M120 108h14c3.32 0 6-2.69 6-6V59l-20 15"/><path fill="#fbbc04" d="M120 48v26l20-15v-8c0-7.42-8.47-11.65-14.4-7.2"/><path fill="#ea4335" d="M72 74V48l24 18 24-18v26L96 92"/><path fill="#c5221f" d="M52 51v8l20 15V48l-5.6-4.2c-5.94-4.45-14.4-.22-14.4 7.2"/></symbol>
+<symbol id="telegram" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#27A7E7"/><path fill="#fff" d="M16.906 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></symbol>
+</defs></svg>
+
+<nav id="nav">
+ <a class="brand" href="#home" aria-label="Yasin Nejati"><svg viewBox="0 0 100 100" width="34" height="34"><use href="#yn"/></svg></a>
+ <div class="links" id="links"><span id="pill"></span>
+  <a href="#home" data-i="nHome"></a><a href="#about" data-i="nAbout"></a><a href="#skills" data-i="nSkills"></a><a href="#projects" data-i="nProj"></a><a href="#contact" data-i="nContact"></a>
+ </div>
+ <div style="display:flex;gap:6px" class="sp">
+  <button class="ib" id="lang" aria-label="Language">فا</button>
+  <button class="ib" id="theme" aria-label="Theme"><svg class="moon" viewBox="0 0 24 24"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg><svg class="sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4.5"/><path d="M12 1.5v3M12 19.5v3M1.5 12h3M19.5 12h3M4.6 4.6l2.1 2.1M17.3 17.3l2.1 2.1M4.6 19.4l2.1-2.1M17.3 6.7l2.1-2.1" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
+  <button class="ib" id="menu" aria-label="Menu" aria-expanded="false" aria-controls="links"><svg viewBox="0 0 24 24"><path d="M4 8h16M4 16h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
+ </div>
+</nav>
+
+<main id="main">
+<section id="home">
+ <canvas id="cv"></canvas><div class="orb"></div><div class="orb b"></div>
+ <div class="wrap hero">
+  <div>
+   <h1 class="rv" data-i="name"></h1>
+   <div class="role rv" style="--d:.1s" data-i="role"></div>
+   <p class="intro rv" style="--d:.2s" data-i="intro"></p>
+<div class="btns rv" style="--d:.3s">
+      <a class="btn p mag" href="#projects" data-i="cta1"></a>
+      <a class="btn mag" href="https://github.com/yasinnejat" target="_blank" rel="noopener"><svg><use href="#gh"/></svg><span>GitHub</span></a>
+     </div>
+  </div>
+  <div class="logo rv" id="logo" style="--d:.2s"><div class="in"><svg viewBox="0 0 100 100"><use href="#yn"/></svg></div><span class="bub" style="width:44px;height:44px;top:-8px;inset-inline-end:-6px"></span><span class="bub" style="width:22px;height:22px;bottom:20px;inset-inline-start:-14px;animation-delay:-3s"></span></div>
+ </div>
+</section>
+
+<section id="about"><div class="wrap">
+ <h2 class="rv" data-i="aboutT"></h2><p class="sub rv" data-i="aboutS"></p>
+ <div class="about">
+  <div class="card t rv"><p data-i="bio"></p></div>
+  <div class="card t facts rv" style="--d:.1s"><div class="fact"><i></i><span data-i="f1"></span></div><div class="fact"><i></i><span data-i="f2"></span></div><div class="fact"><i></i><span data-i="f3"></span></div></div>
+ </div>
+</div></section>
+
+<section id="skills"><div class="wrap">
+ <h2 class="rv" data-i="skT"></h2><p class="sub rv" data-i="skS"></p>
+ <div class="skills">
+  <div class="card t sk rv" tabindex="0"><svg viewBox="0 0 100 100"><circle class="ring bg" cx="50" cy="50" r="42" pathLength="100"/><circle class="ring fg" cx="50" cy="50" r="42" pathLength="100" style="--o:8" transform="rotate(-90 50 50)"/><circle class="ring bg" cx="50" cy="50" r="30" pathLength="100"/><circle class="ring fg" cx="50" cy="50" r="30" pathLength="100" style="--o:14" transform="rotate(-90 50 50)"/></svg><div><h3>Python</h3><div class="lvl" data-i="lvl"></div><p class="more" data-i="pyMore"></p></div></div>
+  <div class="card t sk rv" style="--d:.12s" tabindex="0"><svg viewBox="0 0 100 100"><circle class="ring bg" cx="50" cy="50" r="42" pathLength="100"/><circle class="ring fg" cx="50" cy="50" r="42" pathLength="100" style="--o:10" transform="rotate(-90 50 50)"/><circle class="ring bg" cx="50" cy="50" r="30" pathLength="100"/><circle class="ring fg" cx="50" cy="50" r="30" pathLength="100" style="--o:18" transform="rotate(-90 50 50)"/></svg><div><h3 data-i="ml"></h3><div class="lvl" data-i="lvl"></div><p class="more" data-i="mlMore"></p></div></div>
+ </div>
+</div></section>
+
+<section id="projects"><div class="wrap">
+  <h2 class="rv" data-i="prT"></h2><p class="sub rv" data-i="prS"></p>
+  <div class="grid" id="projGrid">
+   <article class="card t pc rv"><div class="img"><svg viewBox="0 0 300 170" preserveAspectRatio="xMidYMid slice"><defs><linearGradient id="p1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1c2a5e"/><stop offset="1" stop-color="#4f3aa8"/></linearGradient></defs><rect width="300" height="170" fill="url(#p1)"/><circle cx="220" cy="40" r="70" fill="#4f7cff" opacity=".3"/><path d="M0 130 C60 90 120 150 180 110 S270 90 300 100V170H0z" fill="#0d1220" opacity=".5"/></svg></div><div class="bd"><h3 data-i="pTitle"></h3><p data-i="pDesc" style="color:var(--mu)"></p><div class="tags"><span>Python</span><span data-i="ml"></span><span>Computer Vision</span><span>Deep Learning</span></div><div class="btns"><a class="btn p" href="https://github.com/yasinnejat/crisis-ai-demo" target="_blank" rel="noopener"><svg><use href="#gh"/></svg><span data-i="viewDemo"></span></a><button class="btn" data-p="modal" data-i="moreDetails"></button></div></div></article>
+   <article class="card t pc rv" style="--d:.12s"><div class="img"><svg viewBox="0 0 300 170" preserveAspectRatio="xMidYMid slice"><defs><linearGradient id="p2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3a1f5e"/><stop offset="1" stop-color="#1f5ea8"/></linearGradient></defs><rect width="300" height="170" fill="url(#p2)"/><circle cx="80" cy="50" r="64" fill="#8b6cff" opacity=".3"/><path d="M0 120 C70 150 120 80 190 110 S270 140 300 90V170H0z" fill="#0d1220" opacity=".5"/></svg></div><div class="bd"><h3 data-i="p2Title"></h3><p data-i="p2Desc" style="color:var(--mu)"></p><div class="tags"><span>Python</span><span data-i="ml"></span><span>Scikit-learn</span><span>Logistic Regression</span></div><div class="btns"><a class="btn p" href="https://github.com/yasinnejat/breast-cancer-classification" target="_blank" rel="noopener"><svg><use href="#gh"/></svg><span data-i="viewDemo"></span></a><button class="btn" data-p="modal2" data-i="moreDetails"></button></div></div></article>
+   <article class="card t pc rv" style="--d:0s"><div class="img"><svg viewBox="0 0 300 170" preserveAspectRatio="xMidYMid slice"><defs><linearGradient id="p3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f3d4a"/><stop offset="1" stop-color="#2f5fd0"/></linearGradient></defs><rect width="300" height="170" fill="url(#p3)"/><circle cx="150" cy="30" r="66" fill="#4f7cff" opacity=".28"/><path d="M0 105 C80 70 130 140 200 100 S280 80 300 120V170H0z" fill="#0d1220" opacity=".5"/></svg></div><div class="bd"><h3 data-i="p3Title"></h3><p data-i="p3Desc" style="color:var(--mu)"></p><div class="tags"><span>Python</span><span>OpenCV</span><span>Image Processing</span><span>Computer Vision</span></div><div class="btns"><a class="btn p" href="https://github.com/yasinnejat/opencv-image-processing" target="_blank" rel="noopener"><svg><use href="#gh"/></svg><span data-i="viewDemo"></span></a><button class="btn" data-p="modal3" data-i="moreDetails"></button></div></div></article>
+   <article class="card t pc rv" style="--d:.12s"><div class="img"><svg viewBox="0 0 300 170" preserveAspectRatio="xMidYMid slice"><defs><linearGradient id="p4" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2a1f5e"/><stop offset="1" stop-color="#0f6a7a"/></linearGradient></defs><rect width="300" height="170" fill="url(#p4)"/><circle cx="230" cy="130" r="70" fill="#8b6cff" opacity=".28"/><path d="M0 90 C70 120 130 60 200 95 S270 120 300 80V170H0z" fill="#0d1220" opacity=".5"/></svg></div><div class="bd"><h3 data-i="p4Title"></h3><p data-i="p4Desc" style="color:var(--mu)"></p><div class="tags"><span>Python</span><span>OpenCV</span><span>Haar Cascade</span><span>Computer Vision</span></div><div class="btns"><a class="btn p" href="https://github.com/yasinnejat/opencv-face-detection" target="_blank" rel="noopener"><svg><use href="#gh"/></svg><span data-i="viewDemo"></span></a><button class="btn" data-p="modal4" data-i="moreDetails"></button></div></div></article>
+   
+   
+  </div>
+ </div></section>
+
+<section id="contact"><div class="wrap">
+  <div class="card ct rv"><h2 data-i="ctT"></h2><p data-i="ctS" style="max-width:46ch;margin:0 auto 24px"></p>
+    <div class="contact-links" style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap;margin-top:16px">
+    <a class="btn" href="mailto:yasinnejati8717@gmail.com"><svg class="br"><use href="#gmail"/></svg><span data-i="contactEmail"></span></a>
+    <a class="btn" href="https://t.me/Yasin_NeJati" target="_blank" rel="noopener"><svg class="br"><use href="#telegram"/></svg><span data-i="contactTelegram"></span></a>
+    <a class="btn" href="https://github.com/yasinnejat" target="_blank" rel="noopener"><svg><use href="#gh"/></svg><span data-i="contactGitHub"></span></a>
+   </div></div>
+ </div></section>
+</main>
+
+<footer><div class="wrap fr">
+  <div><b>Yasin Nejati</b><br><span data-i="role"></span></div>
+  <div class="fl"><a href="https://github.com/yasinnejat" target="_blank" rel="noopener">GitHub</a><a href="#contact" data-i="nContact"></a><button class="ib" id="lang2" aria-label="Language">فا</button></div>
+  <div style="width:100%;font-size:13px">© <span id="yr"></span> Yasin Nejati</div>
+ </div></footer>
+
+<div id="projectModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+ <div class="modal-backdrop"></div>
+ <div class="modal-content" tabindex="-1">
+  <button class="modal-close" aria-label="Close modal">&times;</button>
+  <div class="modal-body">
+   <h2 id="modalTitle"></h2>
+   <div class="modal-text" id="modalText"></div>
+  </div>
+ </div>
+</div>
+
+<script>
+const T={en:{nHome:"Home",nAbout:"About",nSkills:"Skills",nProj:"Projects",nContact:"Contact",name:"Yasin Nejati",role:"AI Developer",intro:"I design and build machine learning systems in Python — from raw data to models that work.",cta1:"View Projects",viewDemo:"View on GitHub",aboutT:"About",aboutS:"A developer focused on practical AI.",bio:"I'm Yasin, an AI developer. I work with Python to build machine learning models and turn them into useful software. I care about clean code, clear results and solving real problems.",f1:"Artificial Intelligence",f2:"Machine Learning",f3:"Python development",skT:"Skills",skS:"The two things I work with every day.",lvl:"Professional level",ml:"Machine Learning",pyMore:"Building models, data pipelines and tools.",mlMore:"Training, evaluating and improving models.",prT:"Projects",prS:"Selected work. Open the repository on GitHub.",pTitle:"Computer Vision-Based Accident Detection",pDesc:"Design and implementation of an intelligent system for accident detection in images using machine learning and image processing techniques, aimed at fast and automated incident detection.",p2Title:"Breast Cancer Classification Using Machine Learning",p2Desc:"Design and implementation of a breast cancer classification model using the Logistic Regression algorithm in Python, aimed at predicting whether a tumor is benign or malignant from numeric features extracted from diagnostic data.",modal2Title:"Breast Cancer Classification Using Machine Learning",modal2Content:"## Project Overview\n\nThis project develops a **machine learning model** that classifies breast tumors as benign or malignant. It uses numeric features describing the cellular and structural properties of tumors, so the model can learn patterns in the data and predict the status of new samples.\n\nThe focus is on applying **Logistic Regression** to a binary classification problem and examining how well it separates the two diagnostic groups.\n\n## Dataset & Data Preparation\n\nThe dataset contains **569 samples and 30 numeric features** of breast tumors, such as radius, texture, perimeter, area, smoothness, compactness, concavity, concave points, symmetry and fractal dimension.\n\nEach feature is recorded as a mean, a standard error and a worst-case value. The Diagnosis column is the model's target label.\n\nDuring preparation, the ID column was dropped and the diagnosis was converted to numbers: Malignant is 1 and Benign is 0.\n\n## Data Preprocessing & Feature Scaling\n\nFeatures were scaled with **Min-Max Scaling**: each value is rescaled by that feature's minimum and maximum so it falls between 0 and 1.\n\nThis reduces the difference in scale between features and prepares the data for Logistic Regression.\n\nAfter separating the input features from the target, the data was split 85% for training and 15% for testing, with random_state set to 42 so the split is reproducible.\n\n## Machine Learning Model\n\nThe model is a **Logistic Regression** classifier from Scikit-learn.\n\nLogistic Regression is a widely used algorithm for binary classification. It learns the relationship between input features and target labels and estimates the probability that a sample belongs to each class.\n\nHere, the model learns from the training data how the numeric tumor features relate to benign or malignant status, then predicts labels for the test set.\n\nThe max_iter parameter was set to 1,000,000 to allow enough optimization iterations.\n\n## Model Evaluation & Results\n\nAfter training, predictions on the test set were compared with the true labels.\n\nAccording to the notebook output, the model classified **77 of 86 test samples** correctly, an overall accuracy of about **89.53%** in this run.\n\nThis shows the model classifies a substantial share of the test samples correctly. For a medical problem, however, a closer evaluation with Precision, Recall, F1-score and a Confusion Matrix is needed, especially to analyze malignant cases wrongly predicted as benign.\n\n## Technologies & Tools\n\nPython, Pandas, NumPy, Matplotlib, Scikit-learn, Logistic Regression, Data Preprocessing, Min-Max Scaling, Supervised Machine Learning, Binary Classification, Train-Test Split, Model Evaluation\n\n## Key Project Highlights\n\n* Prepared and explored a diagnostic dataset of 569 samples and 30 numeric features\n* Converted text diagnosis labels to numeric values\n* Dropped the ID feature and separated input features from the target\n* Scaled features with Min-Max normalization\n* Implemented and trained a Logistic Regression model with Scikit-learn\n* Split training and test data 85 to 15\n* Evaluated predictions and computed overall accuracy\n* Reached a recorded accuracy of about 89.53% on the test set\n\n## Future Improvements\n\nThe evaluation can be extended with Stratified Cross-Validation, a Confusion Matrix, Precision, Recall and F1-score. Comparing Logistic Regression with Support Vector Machine, Random Forest and K-Nearest Neighbors would help choose a better model.\n\nOther directions include hyperparameter tuning, studying how individual features affect the output, and building a simple interface that takes input data and shows the prediction.\n\n## Conclusion\n\nThis project is a practical example of supervised machine learning applied to a medical classification problem. It covers data preparation, feature scaling, training a Logistic Regression model and evaluating predictions, giving hands-on experience with the core Python data and ML tools.\n\n**Note:** this is an educational and research project. The model alone is not valid for medical diagnosis or clinical decisions.",p3Title:"Image Processing with OpenCV",p3Desc:"A hands-on notebook covering core image processing operations in Python with OpenCV: loading images, color conversion, cropping, resizing, thresholding and Gaussian blur.",modal3Title:"Image Processing with OpenCV",modal3Content:"## Project Overview\n\nThis project is a Jupyter Notebook that walks through the fundamental image processing operations in **OpenCV**. It shows how an image is represented as an array of pixels and how common operations transform it step by step.\n\nIt is a practical base for **Computer Vision** work, since most vision pipelines start with these same steps: loading, converting, cropping, resizing and filtering images.\n\n## Workflow\n\n* Loading an image with cv2.imread and inspecting pixel values\n* Displaying images with cv2.imshow and with Matplotlib\n* Converting from BGR to RGB and to grayscale with cv2.cvtColor\n* Cropping a region of interest with array slicing\n* Resizing the cropped region to 100 x 100 pixels with INTER_AREA interpolation\n* Applying a binary threshold to the grayscale image\n* Smoothing the image with a Gaussian blur\n\n## Technologies & Tools\n\nPython, OpenCV, Matplotlib, Jupyter Notebook, Image Processing, Computer Vision, Color Space Conversion, Thresholding, Gaussian Blur\n\n## Notes\n\nThe repository does not include the input image. To run the notebook, add your own image named face.jpg next to it and adjust the crop coordinates to fit your image. Because cv2.imshow opens a desktop window, the notebook should be run on a local machine.\n\n## Future Improvements\n\nThe project can be extended with edge detection, contour finding, face detection and real-time processing of webcam or video input. Wrapping the steps into reusable functions would also make the code easier to reuse in larger projects.\n\n## Conclusion\n\nThis project gives practical, hands-on experience with the basic building blocks of image processing in Python, and serves as a starting point for larger Computer Vision projects.",p4Title:"Face and Eye Detection with OpenCV",p4Desc:"A notebook that captures webcam frames and detects faces and eyes with OpenCV Haar cascade classifiers, on a single frame and in real time.",modal4Title:"Face and Eye Detection with OpenCV",modal4Content:"## Project Overview\n\nThis project is a Jupyter Notebook that captures frames from a webcam and detects faces and eyes using the pre-trained **Haar cascade** classifiers that ship with **OpenCV**. It first works on a single frame, then runs the same detection on live video in real time.\n\nIt shows a complete, small **Computer Vision** pipeline: capturing input, preprocessing, detection and visualizing the results.\n\n## Workflow\n\n* Opening the webcam with cv2.VideoCapture and reading a frame\n* Defining a helper that shows an image in an OpenCV window\n* Loading the Haar cascade models for faces and eyes\n* Converting the frame to grayscale\n* Detecting faces and eyes with detectMultiScale\n* Drawing rectangles around the detections\n* Repeating the detection on live webcam frames and showing the result in real time\n* Cropping the detected face region from the grayscale image\n\n## Technologies & Tools\n\nPython, OpenCV, Haar Cascade Classifiers, Matplotlib, Jupyter Notebook, Object Detection, Computer Vision, Real-Time Processing\n\n## Notes\n\nThe notebook needs a webcam and a desktop environment, because cv2.imshow opens a window. Frames are processed in memory only and nothing is saved. The single-frame cells assume exactly one face and two detected eyes in the frame, and Haar cascades are sensitive to lighting and head pose.\n\n## Future Improvements\n\nThe project can be extended with more robust detectors such as deep learning based face detection, handling several faces at once, tracking faces across frames, and adding features like face counting or blurring.\n\n## Conclusion\n\nThis project gives practical experience with real-time object detection in Python and shows how classic Computer Vision models can be applied to live video.",viewAll:"View all projects",allT:"All projects",showLess:"Show less",contactEmail:"Email",contactTelegram:"Telegram",contactGitHub:"GitHub",ctT:"Get in touch",ctS:"Have a project or an idea? Send me a message by email or Telegram.",menu:"Menu",theme:"Toggle theme",langL:"Switch language",close:"Close",skip:"Skip to content",moreDetails:"More Details",modalTitle:"Computer Vision-Based Accident Detection",modalContent:"## Project Overview\n\nThis project was developed to create an **intelligent driver accident detection system based on Computer Vision and Artificial Intelligence**. The system analyzes image content upon receiving visual data and enables automatic accident detection using visual patterns present in the scene.\n\nThe main goal is to reduce reliance on manual image review and create a platform for **Automated Accident Detection**, suitable for traffic monitoring systems, urban cameras, accident management systems, and other intelligent transportation applications.\n\n## Methodology\n\nThe detection process begins with data preparation. Collected and categorized visual data undergoes various **Preprocessing** stages to provide standardized input for the machine learning model.\n\nAfter Dataset preparation, visual features related to accidents are extracted from images, and the model learns patterns of accident and non-accident scenes using training samples. During Inference, new images are fed to the model, which provides detection results based on extracted features.\n\nThe project structure separates **Data Preparation, Image Processing, Model Training, and Prediction** stages, allowing each part to be developed or replaced independently.\n\n## Computer Vision & AI\n\nThe core of this project is built on **Computer Vision** concepts. The system analyzes information in images to identify patterns such as vehicle presence, abnormal vehicle states, collisions, or visible changes in scene structure.\n\nAI methods enable automatic detection, allowing the model to make decisions on new samples after learning from existing data.\n\n## Key Features\n\n* Automatic accident detection from visual data\n* Image processing and preparation for model use\n* Computer Vision and Machine Learning/Deep Learning techniques\n* Model training on accident scene Dataset\n* New sample testing and prediction capability\n* Extensible structure for larger projects\n* Extensible to surveillance camera image and video processing\n* Usable as part of an intelligent accident management system\n\n## Technical Perspective\n\nFrom a software engineering and AI perspective, this project represents practical experience in a complete **Computer Vision** project lifecycle — from data preparation and Preprocessing to model training and Prediction.\n\nA key design goal was creating an extensible structure to later add capabilities like **Real-Time Accident Detection, Video Processing, Event Classification, and Automated Alert Generation**.\n\nIn a real scenario, this system could connect to surveillance cameras and automatically process images or video frames. Upon detecting an accident, results could be sent to traffic management systems or operators, reducing response time.\n\n## Potential Applications\n\nThis project applies to various **Intelligent Transportation Systems (ITS)** areas:\n\n* Intelligent urban monitoring systems\n* Traffic control and monitoring cameras\n* Accident management systems\n* Automated accident detection systems\n* Smart City projects\n* Emergency response and crisis management systems\n* Surveillance camera video analysis\n\n## Future Improvements\n\nKey development paths include advanced Deep Learning models, increased Dataset diversity, improved detection accuracy, reduced False Positive/Negative rates, real-time video processing, and Edge Device deployment.\n\nThe system can also evolve from simple \"accident/no-accident\" detection to a complete **Classification and Analysis of Traffic Incidents** system, extracting incident type, approximate severity, and scene-related information.\n\n## Project Outcome\n\nOverall, this project demonstrates practical application of **Artificial Intelligence and Computer Vision in Intelligent Transportation**, showing how automated visual data analysis solves real problems.\n\nThe structure also provides a foundation for scalable development, moving from simple image processing toward **Real-Time Video Analytics and Intelligent Accident Monitoring**."},
+fa:{nHome:"خانه",nAbout:"درباره من",nSkills:"مهارت‌ها",nProj:"پروژه‌ها",nContact:"تماس",name:"یاسین نجاتی",role:"توسعه‌دهنده هوش مصنوعی",intro:"من سیستم‌های یادگیری ماشین را با پایتون طراحی و می‌سازم؛ از داده خام تا مدلی که واقعاً کار می‌کند.",cta1:"مشاهده پروژه‌ها",viewDemo:"مشاهده در گیت‌هاب",aboutT:"درباره من",aboutS:"توسعه‌دهنده‌ای متمرکز بر هوش مصنوعی کاربردی.",bio:"من یاسین هستم، توسعه‌دهنده هوش مصنوعی. با پایتون مدل‌های یادگیری ماشین می‌سازم و آن‌ها را به نرم‌افزار کاربردی تبدیل می‌کنم. به کد تمیز، نتایج روشن و حل مسئله‌های واقعی اهمیت می‌دهم.",f1:"هوش مصنوعی",f2:"یادگیری ماشین",f3:"توسعه با پایتون",skT:"مهارت‌ها",skS:"دو حوزه‌ای که هر روز با آن‌ها کار می‌کنم.",lvl:"سطح حرفه‌ای",ml:"یادگیری ماشین",pyMore:"ساخت مدل، پایپ‌لاین داده و ابزار.",mlMore:"آموزش، ارزیابی و بهبود مدل‌ها.",prT:"پروژه‌ها",prS:"نمونه کارها. مخزن را در گیت‌هاب ببینید.",pTitle:"تشخیص تصادفات با استفاده از بینایی ماشین",pDesc:"طراحی و پیاده‌سازی یک سیستم هوشمند برای شناسایی تصادفات در تصاویر با استفاده از تکنیک‌های یادگیری ماشین و پردازش تصویر، با هدف تشخیص سریع و خودکار حوادث.",p2Title:"طبقه‌بندی سرطان سینه با استفاده از یادگیری ماشین",p2Desc:"طراحی و پیاده‌سازی مدل طبقه‌بندی سرطان سینه با استفاده از الگوریتم Logistic Regression در پایتون، با هدف پیش‌بینی خوش‌خیم یا بدخیم بودن تومور بر اساس ویژگی‌های عددی استخراج‌شده از داده‌های تشخیصی.",modal2Title:"طبقه‌بندی سرطان سینه با استفاده از یادگیری ماشین",modal2Content:"## Project Overview\n\nاین پروژه با هدف توسعه‌ی یک **مدل یادگیری ماشین** برای طبقه‌بندی تومورهای سرطان سینه به دو گروه خوش‌خیم (Benign) و بدخیم (Malignant) پیاده‌سازی شده است. در این پروژه از داده‌های عددی مرتبط با ویژگی‌های سلولی و ساختاری تومورها استفاده می‌شود تا مدل بتواند الگوهای موجود در داده‌ها را یاد بگیرد و وضعیت نمونه‌های جدید را پیش‌بینی کند.\n\nتمرکز اصلی پروژه بر استفاده از الگوریتم **Logistic Regression** برای حل یک مسئله‌ی طبقه‌بندی دودویی (Binary Classification) و بررسی عملکرد آن در تفکیک دو گروه تشخیصی است.\n\n## Dataset & Data Preparation\n\nدر این پروژه از یک مجموعه‌داده شامل **۵۶۹ نمونه و ۳۰ ویژگی عددی** مرتبط با تومورهای سینه استفاده شده است. داده‌ها شامل ویژگی‌هایی مانند شعاع، بافت، محیط، مساحت، صافی، فشردگی، تقعر، نقاط مقعر، تقارن و ابعاد فراکتالی هستند.\n\nاین ویژگی‌ها در قالب مقادیر آماری مختلف، از جمله مقادیر میانگین، خطای استاندارد و مقادیر بدترین حالت ثبت شده‌اند. ستون Diagnosis نیز برچسب هدف مدل را مشخص می‌کند.\n\nدر مرحله‌ی آماده‌سازی داده‌ها، ستون شناسه (ID) از مجموعه‌داده حذف شده و مقادیر تشخیص به قالب عددی تبدیل شده‌اند؛ به‌طوری که برچسب Malignant با مقدار ۱ و برچسب Benign با مقدار ۰ نمایش داده می‌شود.\n\n## Data Preprocessing & Feature Scaling\n\nبرای آماده‌سازی ویژگی‌ها، از روش **Min-Max Scaling** استفاده شده است. در این روش، مقادیر هر ویژگی بر اساس حداقل و حداکثر همان ویژگی مقیاس‌بندی می‌شوند تا در بازه‌ی صفر تا یک قرار بگیرند.\n\nهدف از این مرحله، کاهش اختلاف مقیاس میان ویژگی‌های مختلف و آماده‌سازی داده‌ها برای استفاده در الگوریتم Logistic Regression است.\n\nپس از جداسازی ویژگی‌های ورودی از متغیر هدف، داده‌ها به دو بخش آموزش و آزمون تقسیم شده‌اند. ۸۵ درصد داده‌ها برای آموزش مدل و ۱۵ درصد برای ارزیابی آن در نظر گرفته شده است. همچنین برای بازتولیدپذیری تقسیم داده‌ها، مقدار random_state برابر با 42 تنظیم شده است.\n\n## Machine Learning Model\n\nمدل اصلی پروژه بر پایه‌ی الگوریتم **Logistic Regression** از کتابخانه‌ی Scikit-learn پیاده‌سازی شده است.\n\nLogistic Regression یکی از الگوریتم‌های پرکاربرد در مسائل طبقه‌بندی دودویی است که با یادگیری رابطه‌ی میان ویژگی‌های ورودی و برچسب‌های هدف، احتمال تعلق هر نمونه به یکی از کلاس‌ها را تخمین می‌زند.\n\nدر این پروژه، مدل با استفاده از داده‌های آموزشی، ارتباط میان ویژگی‌های عددی تومورها و وضعیت خوش‌خیم یا بدخیم بودن آن‌ها را یاد می‌گیرد. سپس از مدل آموزش‌دیده برای پیش‌بینی برچسب نمونه‌های موجود در مجموعه‌ی آزمون استفاده می‌شود.\n\nبرای افزایش تعداد تکرارهای مجاز در فرآیند بهینه‌سازی مدل، پارامتر max_iter روی مقدار 1,000,000 تنظیم شده است.\n\n## Model Evaluation & Results\n\nپس از آموزش مدل، پیش‌بینی‌ها روی مجموعه‌ی آزمون انجام شده و خروجی مدل با برچسب‌های واقعی مقایسه شده است.\n\nبر اساس خروجی ثبت‌شده در نوت‌بوک، مدل از مجموع **۸۶ نمونه‌ی آزمون، ۷۷ نمونه** را به‌درستی طبقه‌بندی کرده است. در نتیجه، دقت کلی محاسبه‌شده در این اجرا تقریباً **۸۹٫۵۳ درصد** بوده است.\n\nاین نتیجه نشان می‌دهد که مدل توانسته است بخش قابل‌توجهی از نمونه‌های آزمون را به‌درستی طبقه‌بندی کند. بااین‌حال، برای ارزیابی دقیق‌تر عملکرد مدل در یک مسئله‌ی پزشکی، بررسی معیارهایی مانند Precision، Recall، F1-score و Confusion Matrix نیز ضروری است؛ به‌ویژه برای تحلیل نمونه‌های بدخیمی که به‌اشتباه خوش‌خیم پیش‌بینی شده‌اند.\n\n## Technologies & Tools\n\nPython، Pandas، NumPy، Matplotlib، Scikit-learn، Logistic Regression، Data Preprocessing، Min-Max Scaling، Supervised Machine Learning، Binary Classification، Train-Test Split، Model Evaluation\n\n## Key Project Highlights\n\n* آماده‌سازی و تحلیل مجموعه‌داده‌ی تشخیصی شامل ۵۶۹ نمونه و ۳۰ ویژگی عددی\n* تبدیل برچسب‌های متنی تشخیص به مقادیر عددی\n* حذف ویژگی شناسه و تفکیک داده‌ها به ویژگی‌های ورودی و متغیر هدف\n* مقیاس‌بندی ویژگی‌ها با استفاده از Min-Max Normalization\n* پیاده‌سازی و آموزش مدل Logistic Regression با Scikit-learn\n* جداسازی داده‌های آموزش و آزمون با نسبت ۸۵ به ۱۵\n* ارزیابی پیش‌بینی‌ها و محاسبه‌ی دقت کلی مدل\n* دستیابی به دقت ثبت‌شده‌ی حدود ۸۹٫۵۳ درصد روی مجموعه‌ی آزمون\n\n## Future Improvements\n\nبرای توسعه‌ی این پروژه می‌توان روش‌های ارزیابی دقیق‌تری مانند Stratified Cross-Validation، Confusion Matrix، Precision، Recall و F1-score را اضافه کرد. همچنین مقایسه‌ی عملکرد Logistic Regression با الگوریتم‌هایی مانند Support Vector Machine، Random Forest و K-Nearest Neighbors می‌تواند در انتخاب مدل مناسب‌تر مؤثر باشد.\n\nاز دیگر مسیرهای توسعه می‌توان به بهینه‌سازی ابرپارامترها، بررسی تأثیر ویژگی‌های مختلف بر خروجی مدل و ایجاد یک رابط کاربری ساده برای دریافت داده‌ها و نمایش نتیجه‌ی پیش‌بینی اشاره کرد.\n\n## Conclusion\n\nاین پروژه نمونه‌ای کاربردی از استفاده از یادگیری ماشین نظارت‌شده برای حل یک مسئله‌ی طبقه‌بندی در حوزه‌ی داده‌های پزشکی است. پیاده‌سازی آن شامل آماده‌سازی داده‌ها، مقیاس‌بندی ویژگی‌ها، آموزش مدل Logistic Regression و ارزیابی پیش‌بینی‌ها بوده و تجربه‌ای عملی در کار با ابزارهای اصلی تحلیل داده و یادگیری ماشین در پایتون فراهم می‌کند.\n\n**توجه:** این پروژه یک نمونه‌ی آموزشی و پژوهشی است و مدل آن به‌تنهایی برای تشخیص پزشکی یا تصمیم‌گیری بالینی معتبر نیست.",p3Title:"پردازش تصویر با OpenCV",p3Desc:"نوت‌بوکی کاربردی برای آموزش عملیات پایه‌ی پردازش تصویر در پایتون با OpenCV؛ شامل خواندن تصویر، تبدیل فضای رنگی، برش، تغییر اندازه، آستانه‌گذاری و محو گاوسی.",modal3Title:"پردازش تصویر با OpenCV",modal3Content:"## Project Overview\n\nاین پروژه یک نوت‌بوک Jupyter است که عملیات پایه‌ی **پردازش تصویر** را با **OpenCV** مرحله‌به‌مرحله نشان می‌دهد. در آن دیده می‌شود که یک تصویر چگونه به‌صورت آرایه‌ای از پیکسل‌ها نمایش داده می‌شود و عملیات رایج چگونه آن را تغییر می‌دهند.\n\nاین پروژه پایه‌ای کاربردی برای کار در حوزه‌ی **Computer Vision** است، چون بیشتر پایپ‌لاین‌های بینایی ماشین با همین مراحل شروع می‌شوند: خواندن، تبدیل، برش، تغییر اندازه و فیلتر کردن تصویر.\n\n## Workflow\n\n* خواندن تصویر با cv2.imread و بررسی مقادیر پیکسل‌ها\n* نمایش تصویر با cv2.imshow و با Matplotlib\n* تبدیل از BGR به RGB و به مقیاس خاکستری با cv2.cvtColor\n* برش ناحیه‌ی موردنظر با آرایه‌بُری (array slicing)\n* تغییر اندازه‌ی ناحیه‌ی برش‌خورده به ۱۰۰ در ۱۰۰ پیکسل با درون‌یابی INTER_AREA\n* اعمال آستانه‌گذاری دودویی (Threshold) روی تصویر خاکستری\n* هموارسازی تصویر با محو گاوسی (Gaussian Blur)\n\n## Technologies & Tools\n\nPython، OpenCV، Matplotlib، Jupyter Notebook، Image Processing، Computer Vision، Color Space Conversion، Thresholding، Gaussian Blur\n\n## Notes\n\nتصویر ورودی در مخزن قرار داده نشده است. برای اجرای نوت‌بوک، تصویر خودتان را با نام face.jpg کنار آن بگذارید و مختصات برش را متناسب با تصویرتان تغییر دهید. چون cv2.imshow یک پنجره‌ی دسکتاپ باز می‌کند، نوت‌بوک را باید روی کامپیوتر شخصی اجرا کرد.\n\n## Future Improvements\n\nاین پروژه را می‌توان با تشخیص لبه (Edge Detection)، یافتن کانتور، تشخیص چهره و پردازش بلادرنگ ورودی وب‌کم یا ویدئو گسترش داد. همچنین تبدیل مراحل به توابع قابل‌استفاده‌ی مجدد، کد را برای پروژه‌های بزرگ‌تر راحت‌تر می‌کند.\n\n## Conclusion\n\nاین پروژه تجربه‌ای عملی با بلوک‌های پایه‌ی پردازش تصویر در پایتون فراهم می‌کند و نقطه‌ی شروعی برای پروژه‌های بزرگ‌تر Computer Vision است.",p4Title:"تشخیص چهره و چشم با OpenCV",p4Desc:"نوت‌بوکی که فریم‌های وب‌کم را دریافت می‌کند و با استفاده از طبقه‌بندهای Haar Cascade در OpenCV، چهره و چشم را روی یک فریم و به‌صورت بلادرنگ تشخیص می‌دهد.",modal4Title:"تشخیص چهره و چشم با OpenCV",modal4Content:"## Project Overview\n\nاین پروژه یک نوت‌بوک Jupyter است که فریم‌های وب‌کم را دریافت می‌کند و با استفاده از طبقه‌بندهای از پیش‌آموزش‌دیده‌ی **Haar Cascade** که همراه **OpenCV** ارائه می‌شوند، چهره و چشم را تشخیص می‌دهد. ابتدا روی یک فریم کار می‌کند و سپس همین تشخیص را روی ویدئوی زنده و به‌صورت بلادرنگ اجرا می‌کند.\n\nاین پروژه یک پایپ‌لاین کامل و کوچک **Computer Vision** را نشان می‌دهد: دریافت ورودی، پیش‌پردازش، تشخیص و نمایش نتایج.\n\n## Workflow\n\n* باز کردن وب‌کم با cv2.VideoCapture و خواندن یک فریم\n* تعریف یک تابع کمکی برای نمایش تصویر در پنجره‌ی OpenCV\n* بارگذاری مدل‌های Haar Cascade برای چهره و چشم\n* تبدیل فریم به مقیاس خاکستری\n* تشخیص چهره و چشم با detectMultiScale\n* کشیدن مستطیل دور نواحی تشخیص‌داده‌شده\n* تکرار تشخیص روی فریم‌های زنده‌ی وب‌کم و نمایش نتیجه به‌صورت بلادرنگ\n* برش ناحیه‌ی چهره‌ی تشخیص‌داده‌شده از تصویر خاکستری\n\n## Technologies & Tools\n\nPython، OpenCV، Haar Cascade Classifiers، Matplotlib، Jupyter Notebook، Object Detection، Computer Vision، Real-Time Processing\n\n## Notes\n\nنوت‌بوک به وب‌کم و محیط دسکتاپ نیاز دارد، چون cv2.imshow یک پنجره باز می‌کند. فریم‌ها فقط در حافظه پردازش می‌شوند و چیزی ذخیره نمی‌شود. سلول‌های تک‌فریم فرض می‌کنند دقیقاً یک چهره و دو چشم در تصویر تشخیص داده شده است، و Haar Cascade نسبت به نور و زاویه‌ی سر حساس است.\n\n## Future Improvements\n\nاین پروژه را می‌توان با آشکارسازهای قوی‌تر مانند تشخیص چهره مبتنی بر یادگیری عمیق، پشتیبانی از چند چهره هم‌زمان، ردیابی چهره بین فریم‌ها و افزودن قابلیت‌هایی مثل شمارش یا محو کردن چهره گسترش داد.\n\n## Conclusion\n\nاین پروژه تجربه‌ای عملی با تشخیص اشیا به‌صورت بلادرنگ در پایتون فراهم می‌کند و نشان می‌دهد مدل‌های کلاسیک بینایی ماشین چگونه روی ویدئوی زنده به کار می‌روند.",viewAll:"مشاهده تمامی پروژه‌ها",allT:"همه‌ی پروژه‌ها",showLess:"نمایش کمتر",contactEmail:"ایمیل",contactTelegram:"تلگرام",contactGitHub:"گیت‌هاب",ctT:"در تماس باشید",ctS:"پروژه یا ایده‌ای دارید؟ از طریق ایمیل یا تلگرام برایم پیام بگذارید.",menu:"منو",theme:"تغییر تم",langL:"تغییر زبان",close:"بستن",skip:"رفتن به محتوا",moreDetails:"توضیحات بیشتر",modalTitle:"تشخیص تصادفات با استفاده از بینایی ماشین",modalContent:"## بررسی کلی پروژه\n\nاین پروژه با هدف توسعه‌ی یک **سیستم هوشمند تشخیص تصادفات رانندگی مبتنی بر Computer Vision و Artificial Intelligence** طراحی و پیاده‌سازی شده است. سیستم با دریافت داده‌های تصویری، محتوای تصاویر را تحلیل کرده و با استفاده از الگوهای بصری موجود در صحنه، امکان تشخیص خودکار وقوع تصادف را فراهم می‌کند.\n\nهدف اصلی پروژه، کاهش وابستگی به بررسی و تشخیص دستی تصاویر و ایجاد بستری برای **Automated Accident Detection** است؛ به‌گونه‌ای که بتوان از آن در سامانه‌های نظارت ترافیکی، دوربین‌های شهری، سیستم‌های مدیریت حوادث و سایر کاربردهای مرتبط با حمل‌ونقل هوشمند استفاده کرد.\n\n## روش‌شناسی\n\nدر این پروژه فرآیند تشخیص از مرحله‌ی آماده‌سازی داده‌ها آغاز می‌شود. داده‌های تصویری پس از جمع‌آوری و دسته‌بندی، تحت مراحل مختلف **Preprocessing** قرار می‌گیرند تا ورودی مناسب و استانداردی برای مدل یادگیری ماشین فراهم شود.\n\nپس از آماده‌سازی Dataset، ویژگی‌های بصری مرتبط با تصادفات از تصاویر استخراج شده و مدل با استفاده از نمونه‌های آموزشی، الگوهای مربوط به صحنه‌های تصادف و غیرتصادف را یاد می‌گیرد. در مرحله‌ی Inference نیز تصاویر جدید به مدل داده شده و سیستم بر اساس ویژگی‌های استخراج‌شده، نتیجه‌ی تشخیص را ارائه می‌کند.\n\nساختار پروژه به شکلی طراحی شده است که مراحل **Data Preparation، Image Processing، Model Training و Prediction** از یکدیگر قابل تفکیک باشند و در صورت نیاز بتوان هر بخش را توسعه یا جایگزین کرد.\n\n## بینایی ماشین و هوش مصنوعی\n\nهسته‌ی اصلی پروژه بر پایه‌ی مفاهیم **Computer Vision** قرار دارد. سیستم با تحلیل اطلاعات موجود در تصاویر تلاش می‌کند الگوهایی مانند حضور خودروها، وضعیت غیرعادی وسایل نقلیه، برخورد یا تغییرات قابل مشاهده در ساختار صحنه را شناسایی کند.\n\nاستفاده از روش‌های هوش مصنوعی باعث می‌شود فرآیند تشخیص به‌صورت خودکار انجام شود و مدل بتواند با یادگیری از داده‌های موجود، در مواجهه با نمونه‌های جدید نیز تصمیم‌گیری کند.\n\n## ویژگی‌های کلیدی\n\n* تشخیص خودکار تصادفات از روی داده‌های تصویری\n* پردازش و آماده‌سازی تصاویر برای استفاده در مدل\n* استفاده از تکنیک‌های Computer Vision و Machine Learning/Deep Learning\n* آموزش مدل بر اساس Dataset مربوط به صحنه‌های تصادف\n* امکان بررسی و پیش‌بینی نمونه‌های جدید\n* ساختار قابل توسعه برای استفاده در پروژه‌های بزرگ‌تر\n* قابلیت توسعه به سمت پردازش تصاویر و ویدئوهای دوربین‌های نظارتی\n* امکان استفاده به‌عنوان بخشی از یک سیستم هوشمند مدیریت حوادث\n\n## دیدگاه فنی\n\nاز دیدگاه مهندسی نرم‌افزار و هوش مصنوعی، این پروژه تجربه‌ای عملی در چرخه‌ی کامل یک پروژه‌ی **Computer Vision** محسوب می‌شود؛ از آماده‌سازی داده و Preprocessing گرفته تا آموزش مدل و استفاده از مدل برای Prediction.\n\nیکی از اهداف مهم در طراحی پروژه، ایجاد ساختاری قابل توسعه است تا بتوان در مراحل بعدی قابلیت‌هایی مانند **Real-Time Accident Detection، Video Processing، Event Classification و Automated Alert Generation** را به سیستم اضافه کرد.\n\nدر یک سناریوی واقعی، این سیستم می‌تواند به دوربین‌های نظارتی متصل شود و تصاویر یا فریم‌های ویدئویی را به‌صورت خودکار پردازش کند. در صورت شناسایی یک حادثه، نتیجه می‌تواند برای سیستم مدیریت ترافیک یا اپراتور ارسال شود و در نتیجه زمان موردنیاز برای شناسایی و واکنش به حادثه کاهش پیدا کند.\n\n## کاربردهای بالقوه\n\nاین پروژه قابلیت استفاده در حوزه‌های مختلف **Intelligent Transportation Systems (ITS)** را دارد؛ از جمله:\n\n* سیستم‌های نظارت هوشمند شهری\n* دوربین‌های کنترل و پایش ترافیک\n* سیستم‌های مدیریت تصادفات\n* سامانه‌های تشخیص خودکار حوادث\n* پروژه‌های Smart City\n* سیستم‌های کمک‌رسانی و مدیریت بحران\n* تحلیل ویدئوهای دوربین‌های نظارتی\n\n## بهبودهای آینده\n\nاز مهم‌ترین مسیرهای توسعه‌ی این پروژه می‌توان به استفاده از مدل‌های پیشرفته‌تر Deep Learning، افزایش تنوع Dataset، بهبود دقت تشخیص، کاهش False Positive و False Negative، پردازش ویدئوی Real-Time و اجرای مدل روی Edge Devices اشاره کرد.\n\nهمچنین می‌توان سیستم را از یک تشخیص ساده‌ی «تصادف / عدم تصادف» به یک سیستم کامل‌تر برای **Classification و Analysis of Traffic Incidents** توسعه داد؛ به‌طوری که علاوه بر تشخیص حادثه، نوع حادثه، شدت تقریبی آن و اطلاعات مرتبط با صحنه نیز استخراج شود.\n\n## نتیجه پروژه\n\nدر مجموع، این پروژه یک نمونه‌ی عملی از به‌کارگیری **Artificial Intelligence و Computer Vision در حوزه‌ی Intelligent Transportation** است و نشان می‌دهد چگونه می‌توان از تحلیل خودکار داده‌های تصویری برای حل یک مسئله‌ی واقعی استفاده کرد.\n\nساختار پروژه همچنین بستری مناسب برای توسعه‌ی یک سیستم مقیاس‌پذیرتر فراهم می‌کند که در آینده می‌تواند از پردازش تصویر ساده به سمت **Real-Time Video Analytics و Intelligent Accident Monitoring** حرکت کند."}};
+const $=(s,r=document)=>r.querySelector(s),$$=(s,r=document)=>[...r.querySelectorAll(s)];
+const RM=matchMedia('(prefers-reduced-motion:reduce)').matches,FINE=matchMedia('(hover:hover) and (pointer:fine)').matches;
+const R=document.documentElement;
+function safe(k,v){try{return v===undefined?localStorage.getItem(k):localStorage.setItem(k,v)}catch(e){return null}}
+/* markdown (headings, bold, bullet lists) rendered safely with DOM nodes */
+function md(el,s){el.textContent='';const inl=(p,t)=>t.split(/(\*\*[^*]+\*\*)/g).forEach(x=>{if(/^\*\*[^*]+\*\*$/.test(x)){const b=document.createElement('strong');b.textContent=x.slice(2,-2);p.append(b)}else if(x)p.append(x)});
+ s.split(/\n\n+/).forEach(blk=>{blk=blk.trim();if(!blk)return;
+  if(blk.startsWith('## ')){const h=document.createElement('h3');inl(h,blk.slice(3));el.append(h)}
+  else if(blk.startsWith('* ')){const u=document.createElement('ul');blk.split('\n').forEach(li=>{const i=document.createElement('li');inl(i,li.replace(/^\*\s+/,''));u.append(i)});el.append(u)}
+  else{const p=document.createElement('p');inl(p,blk);el.append(p)}})}
+function renderModal(){const m=document.getElementById('projectModal'),p=m&&m.dataset.p;if(!p)return;document.getElementById('modalTitle').textContent=T[L][p+'Title'];md(document.getElementById('modalText'),T[L][p+'Content'])}
+/* language */
+let L=safe('lang')||((navigator.language||'').toLowerCase().startsWith('fa')?'fa':'en');
+function setLang(l,anim){L=l;safe('lang',l);R.lang=l;R.dir=l==='fa'?'rtl':'ltr';
+ $$('[data-i]').forEach(e=>{const v=T[l][e.dataset.i];if(v==null)return;e.textContent=v;if(anim){e.classList.remove('sw');void e.offsetWidth;e.classList.add('sw')}});
+ $$('#lang,#lang2').forEach(b=>b.textContent=l==='fa'?'EN':'فا');$('#menu').setAttribute('aria-label',T[l].menu);$('#theme').setAttribute('aria-label',T[l].theme);$$('#lang,#lang2').forEach(b=>b.setAttribute('aria-label',T[l].langL));$('.modal-close').setAttribute('aria-label',T[l].close);document.title=T[l].name+' — '+T[l].role;renderModal();pill()}
+$$('#lang,#lang2').forEach(b=>b.onclick=()=>setLang(L==='fa'?'en':'fa',true));
+/* theme */
+let th=safe('theme')||(matchMedia('(prefers-color-scheme:light)').matches?'light':'dark');
+function setTheme(t){th=t;R.dataset.theme=t;safe('theme',t)}
+$('#theme').onclick=()=>{const n=th==='dark'?'light':'dark';document.startViewTransition&&!RM?document.startViewTransition(()=>setTheme(n)):setTheme(n)};
+/* nav */
+const nav=$('#nav'),links=$('#links'),pl=$('#pill'),as=$$('a',links);
+function pill(){const a=$('a.on',links)||as[0];if(!a)return;pl.style.left=a.offsetLeft+'px';pl.style.width=a.offsetWidth+'px'}
+const setMenu=o=>{links.classList.toggle('open',o);$('#menu').setAttribute('aria-expanded',o)};
+$('#menu').onclick=()=>setMenu(!links.classList.contains('open'));
+as.forEach(a=>a.addEventListener('click',()=>setMenu(false)));
+addEventListener('keydown',e=>{if(e.key==='Escape')setMenu(false)});document.addEventListener('click',e=>{if(!e.target.closest('nav'))setMenu(false)});
+addEventListener('scroll',()=>nav.classList.toggle('compact',scrollY>60),{passive:true});
+addEventListener('resize',pill);
+const so=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){as.forEach(a=>a.classList.toggle('on',a.getAttribute('href')==='#'+e.target.id));pill()}}),{rootMargin:'-45% 0px -50% 0px'});
+$$('section').forEach(s=>so.observe(s));
+/* reveal */
+const ro=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('rev');setTimeout(()=>e.target.classList.add('done'),1400);ro.unobserve(e.target)}}),{threshold:.15});
+$$('.rv').forEach(e=>ro.observe(e));
+/* cursor, glow, tilt, magnetic */
+const cur=$('#cur'),hero=$('#home');let cx=0,cy=0,tx=0,ty=0;
+addEventListener('pointermove',e=>{tx=e.clientX;ty=e.clientY;cur.style.opacity=1;
+ const r=hero.getBoundingClientRect();hero.style.setProperty('--mx',(e.clientX-r.left)+'px');hero.style.setProperty('--my',(e.clientY-r.top)+'px')},{passive:true});
+if(FINE&&!RM){document.body.classList.add('cc');(function f(){cx+=(tx-cx)*.2;cy+=(ty-cy)*.2;cur.style.transform=`translate(${cx}px,${cy}px)`;requestAnimationFrame(f)})()}
+else cur.style.display='none';
+document.addEventListener('pointerover',e=>cur.classList.toggle('h',!!e.target.closest('a,button,.card')));
+$$('.card').forEach(c=>c.addEventListener('pointermove',e=>{const r=c.getBoundingClientRect();c.style.setProperty('--cx',e.clientX-r.left+'px');c.style.setProperty('--cy',e.clientY-r.top+'px');
+ if(FINE&&!RM&&c.classList.contains('t')){const x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;c.style.transform=`perspective(900px) rotateY(${x*6}deg) rotateX(${-y*6}deg)`}}));
+$$('.card.t').forEach(c=>c.addEventListener('pointerleave',()=>c.style.transform=''));
+if(FINE&&!RM)$$('.mag').forEach(b=>{b.addEventListener('pointermove',e=>{const r=b.getBoundingClientRect();b.style.transform=`translate(${(e.clientX-r.left-r.width/2)*.2}px,${(e.clientY-r.top-r.height/2)*.3}px)`});b.addEventListener('pointerleave',()=>b.style.transform='')});
+const lg=$('#logo .in');if(FINE&&!RM)$('#logo').addEventListener('pointermove',e=>{const r=lg.getBoundingClientRect();lg.style.transform=`rotateY(${((e.clientX-r.left)/r.width-.5)*14}deg) rotateX(${-((e.clientY-r.top)/r.height-.5)*14}deg)`}),$('#logo').addEventListener('pointerleave',()=>lg.style.transform='');
+/* canvases */
+const lowP=RM||(navigator.hardwareConcurrency||8)<4;
+function fit(c){const d=Math.min(devicePixelRatio||1,2),r=c.getBoundingClientRect();c.width=r.width*d;c.height=r.height*d;return d}
+const cv=$('#cv'),cx1=cv.getContext('2d');let P=[],D1=1;
+function initP(){D1=fit(cv);const n=lowP?0:Math.min(46,Math.round(cv.width/D1/28));P=Array.from({length:n},()=>({x:Math.random()*cv.width,y:Math.random()*cv.height,vx:(Math.random()-.5)*.25*D1,vy:(Math.random()-.5)*.25*D1,r:(Math.random()*1.4+.6)*D1}))}
+function drawP(){cx1.clearRect(0,0,cv.width,cv.height);const c=th==='dark'?'140,170,255':'60,90,200';
+ for(const p of P){p.x=(p.x+p.vx+cv.width)%cv.width;p.y=(p.y+p.vy+cv.height)%cv.height;cx1.fillStyle=`rgba(${c},.55)`;cx1.beginPath();cx1.arc(p.x,p.y,p.r,0,7);cx1.fill()}
+ run=vis?requestAnimationFrame(drawP):0}
+let run=0,vis=true,rt;function kick(){if(P.length&&!run&&vis)run=requestAnimationFrame(drawP)}
+initP();kick();addEventListener('resize',()=>{clearTimeout(rt);rt=setTimeout(()=>{initP();kick()},150)});
+new IntersectionObserver(es=>{vis=es[0].isIntersecting;kick()}).observe(hero);
+$('#yr').textContent=new Date().getFullYear();
+setLang(L);setTheme(th);addEventListener('load',pill);
+/* modal */
+const modal=$('#projectModal'),modalClose=$('.modal-close',modal),modalBtns=$$('[data-p]');
+const mc=$('.modal-content',modal);let lastF;
+function openModal(p){modal.dataset.p=p;renderModal();mc.scrollTop=0;lastF=document.activeElement;modal.classList.add('open');document.body.style.overflow='hidden';mc.focus()}
+function closeModal(){modal.classList.remove('open');document.body.style.overflow='';lastF&&lastF.focus()}
+modalBtns.forEach(b=>b.onclick=()=>openModal(b.dataset.p));
+modalClose.onclick=closeModal;
+modal.querySelector('.modal-backdrop').onclick=closeModal;
+addEventListener('keydown',e=>{if(!modal.classList.contains('open'))return;if(e.key==='Escape')closeModal();if(e.key==='Tab'){e.preventDefault();(document.activeElement===modalClose?mc:modalClose).focus()}});
+</script>
+</body>
+</html>
